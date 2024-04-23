@@ -4,10 +4,8 @@ import { check } from 'k6';
 
 export const options = {
   stages: [
-    { target: 200, duration: '30s' },
-    { target: 400, duration: '30s' },
-    { target: 500, duration: '30s' },
-    { target: 0, duration: '30s' }
+    { target: 50, duration: '30s' },
+    { target: 0, duration: '10' }
   ],
 };
 
