@@ -11,7 +11,7 @@ spec:
       file: test.js
   arguments: -o xk6-influxdb=http://influxdb-influxdb2:80
   runner:
-    image: k6custom:0.0.2
+    image: k6custom:0.0.1
     env:
       - name: K6_INFLUXDB_ORGANIZATION
         value: 'k6io'
