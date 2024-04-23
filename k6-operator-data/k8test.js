@@ -12,7 +12,7 @@ export const options = {
 };
 
 export default function () {
-  let tags = { testid: 'k8s2' };
+  let tags = { testid: 'k8s' };
   const result = http.get('https://test-api.k6.io/public/crocodiles/',{tags: tags});
   check(result, {
     'http response status code is 200': result.status === 200,
